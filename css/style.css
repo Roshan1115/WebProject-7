@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior:auto;
+}
+
+/* .................................................
+Navigation bar
+..................................................... */
+.navbar{
+    display: flex;
+    height: 4.5rem;
+    position: sticky;
+    top: 0;
+    background: none;
+}
+.navlist{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 26px;
+    font-size: 1.5rem;
+}
+.navlist li a:hover{
+    color: white;
+    font-size: 2rem;
+}
+.navlist li a:active{
+    position: relative;
+    top: 5px;
+}
+.navlist img{
+    height: 50px;
+    width: 50px;
+    margin: 0px 25px;
+    border-radius: 50%;
+
+}
+.rightnav{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.rightnav input{
+    height: 35%;
+    border-radius: 1rem;
+    padding-right: 6rem;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.rightnav button{
+    height: 42%;
+    padding: 0px 13px;
+    margin: 0px 30px;
+    border-radius: 0.6rem;
+    outline: none;
+    opacity: 0.5;
+}
+.rightnav button:active{
+    position: relative;
+    top: 5px;
+    outline: none;
+}
+
+.background{
+    background: rgba(0,0,0,0.6) url(../img/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+
+/* ...............................................
+First-section part
+................................................... */
+section{
+    height: 100vh;
+}
+
+.main-holder{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    max-width: 70%;
+    height: fit-content;
+    justify-content: space-around;
+}
+
+.first{
+    color: white;
+    width: 65%;
+    height: fit-content;
+}
+.first h1{
+    font-size: 2.3rem;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+
+.second{
+    width: 30%;
+    height: 65%;
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second img{
+    border-radius: 50%;
+    height: 250px;
+    width: 295px;
+    transition: all .25s;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px white;
+}
+.second img:hover{
+    border-radius: 0px;
+    border: 5px double black;
+}
+
+.buttonHolder{
+    margin: 2.3rem 0rem 1rem 3rem;
+}
+.btn-big{
+    cursor: pointer;
+    padding: .5rem 2rem;
+    margin: 0rem 1rem 0rem 0rem;
+    outline: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.15s;
+}
+#fb:hover{
+    background-color: rgba(25, 156, 233, 0.6);
+    
+}
+#insta:hover{
+    background-color: rgba(252, 34, 34, 0.6);
+    
+}
+.btn-big:active{
+    border: 2px solid black;
+    color: black;
+}
+
+/* ...............................................
+Second section
+.................................................. */
+.secondSection{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: fit-content;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 4.5rem 0rem;
+
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 9rem 0rem;
+    
+}
+.textHolder{
+
+    max-width: 73%;
+    padding: 2rem;
+}
+.imageHolder{
+    height: 250px;
+    width: 1100px;
+
+}
+.textHolder h1{
+    text-decoration: underline;
+    font-size: 2rem;
+
+}
+.imageHolder img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+#content-2{
+    flex-direction: row-reverse;
+}
+#content-4{
+    flex-direction: row-reverse;
+}
+
+
+/* .....................................................
+contact section 
+..................................................... */
+.third-section{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column;
+}
+.third-section h1{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.contactContainer{
+    border: 2px solid black;
+    width: 60rem;
+    margin-bottom: 7rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(150, 149, 149), rgb(221, 221, 221))
+
+}
+.subcontainer{
+    margin: 2.5rem auto;
+    width: 90%;
+}
+.nameContaner input{
+    width: 96%;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.emailandnoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.Holder{
+    width: 47.25%;
+}
+.emailandnoContainer input{
+    width: 92%;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: .5rem;
+}
+
+.genderContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.genderHolder{
+    width: fit-content;
+}
+.subgender{
+    display: inline-block;
+    padding: .5rem 1.2rem;
+}
+#genderPara{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.messageContainer textarea{
+    width: 98%;
+    outline: none;
+    padding: .5rem .5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+.paraFont{
+    font-size: 1.5rem;
+    padding: .5rem 0rem;
+}
+
+/* ................................................................
+footer
+................................................................ */
+footer{
+    height: 10vh;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2rem;
+}
