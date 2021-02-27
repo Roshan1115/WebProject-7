@@ -17,7 +17,7 @@ Navigation bar
     background: none;
 }
 .navlist{
-    width: 50%;
+    width: 70%;
     display: flex;
     list-style: none;
     display: flex;
@@ -45,7 +45,7 @@ Navigation bar
 
 }
 .rightnav{
-    width: 50%;
+    width: 30%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -308,4 +308,96 @@ footer{
 }
 footer p{
     font-size: 1.2rem;
+}
+
+/* .........................................
+the tap t0 view button for responsive
+......................................... */
+.tap-to-view{
+    display: none;
+    height: 35px;
+    width: 35px;
+}
+.line{
+    height: 2px;
+    margin: 7px 0px;
+    background-color: white;
+}
+
+
+
+
+
+
+/* .............................................
+For Responsiveness for Tablet
+............................................. */
+
+@media only screen and (max-width: 1250px){
+    .media-container{
+        max-width: 95%;
+    }
+    .rightnav input{
+        padding-right: 0rem;
+    }
+    .second img{
+        height: 163px;
+        width: 177px;
+    }
+    .contactContainer{
+        width: 80%;
+    }
+}
+
+
+
+/* .............................................
+For Responsiveness for Phones
+............................................. */
+
+
+@media only screen and (max-width: 980px){
+    .res-navbar{
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgba(0, 0, 0, 0.623); */
+        border: 3px solid green;
+        height: 422px;
+        align-items: center;
+        justify-content: space-evenly;
+        /* display: none; */
+    }
+    .navlist{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightnav input{
+        padding: 0px 0px;
+        margin-bottom: 20px;
+    }
+    .rightnav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .navlist li a {
+        color: white;
+        font-size: .7rem;
+        margin: 1rem 0rem;
+        /* padding: .5rem 0rem; */
+    }
+    .tap-to-view{
+        display: block;
+        position: absolute;
+        top: 5%;
+        right: 8%;
+    }
+
+
+    .content{
+        /* display: flex;
+        flex-direction: column; */
+        /* background-color: red; */
+    }
+
 }
