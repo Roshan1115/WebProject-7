@@ -1,0 +1,13 @@
+  .media-container{
+        max-width: 95%;
+    }
+    .rightnav input{
+        padding-right: 0rem;
+    }
+    .second img{
+        height: 163px;
+        width: 177px;
+    }
+    .contactContainer{
+        width: 80%;
+    }

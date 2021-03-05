@@ -1,0 +1,110 @@
+    .navbar{
+        background: url(/img/bg.jpg) center rgba(0, 0, 0, 0.705);
+        display: flex;
+        flex-direction: column;
+        /* background-color: rgba(0, 0, 0, 0.623); */
+        border: 2px solid white;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all .5s linear;
+    }
+    .navlist{
+        display: flex;
+        flex-direction: column;
+        transition: all .8s ease-out;
+        font-size: 75px;
+    }
+    .rightnav input{
+        padding: 7px 0px;
+        margin-bottom: 20px;
+    }
+    .rightnav {
+        display: flex;
+        flex-direction: column-reverse;
+        transition: all .8s ease-out;
+    }
+    
+    .navlist li a {
+        color: white;
+        font-size: 22px;
+        margin: 1rem 0rem;
+        /* padding: .5rem 0rem; */
+    }
+    .tap-to-view{
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    .res-navbar{
+        height: 50px;
+    }
+    .res-navlist{
+        opacity: 0;
+    }
+
+
+    .first-sectionw{
+        height: fit-content;
+    }
+    .main{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 2rem 0rem;
+        max-width: 90%;
+    }
+    .first{
+        /* border: 2px solid yellow; */
+        text-align: center;
+        width: 100%;
+    }
+    .second{
+        margin-bottom: 1.5rem;
+    }
+    .second img {
+        height: 73px;
+        width: 74px;
+    }
+    .btn-big{
+        margin: .5rem;
+    }
+
+
+
+    .content{
+        /* background-color: red; */
+        margin: 4rem 0rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content-2, #content-4{
+        flex-direction: column;
+    }
+    .textHolder{
+        max-width: 95%;
+    }
+    .imageHolder {
+        height: auto;
+        width: 85%;
+    }
+
+
+
+    .nameContaner input{
+        width: 91%;
+    }
+    .paraFont {
+        font-size: 1rem;
+    }
+    .emailandnoContainer input {
+        width: 75%;
+    }
+
+
+
+    footer p {
+        font-size: 1.2rem;
+        max-width: 90%;
+    }

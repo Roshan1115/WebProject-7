@@ -17,22 +17,29 @@ tap_view.addEventListener('click', () => {
     navright.classList.toggle('res-navlist')
 })
 
+// To go home 
 linkTouch1.addEventListener('click', () => {
     navbar.classList.toggle('res-navbar')
     navlist.classList.toggle('res-navlist')
     navright.classList.toggle('res-navlist')
 })
+
+// To Go About
 linkTouch2.addEventListener('click', () => {
     navbar.classList.toggle('res-navbar')
     navlist.classList.toggle('res-navlist')
     navright.classList.toggle('res-navlist')
 })
+
+// To Go Services
 linkTouch3.addEventListener('click', () => {
     navbar.classList.toggle('res-navbar')
     navlist.classList.toggle('res-navlist')
     navright.classList.toggle('res-navlist')
     alert('Services section is not available yet. Thank you for your understanding.')
 })
+
+// To Go Contact
 linkTouch4.addEventListener('click', () => {
     navbar.classList.toggle('res-navbar')
     navlist.classList.toggle('res-navlist')
