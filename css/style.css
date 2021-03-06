@@ -29,6 +29,8 @@ Navigation bar
     color: rgb(182, 181, 181);
     padding: 15px 26px;
     font-size: 1.5rem;
+    font-family: 'Cormorant', serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 .navlist li a:hover{
     color: white;
@@ -110,11 +112,16 @@ section{
 }
 .first h1{
     font-size: 2.3rem;
-    border-bottom: 5px solid white;
     display: inline-block;
     margin-bottom: 1rem;
+    font-family: 'Cormorant', serif;
+    font-family: 'Titillium Web', sans-serif;
 }
-
+.first p{
+    font-family: 'Cormorant', serif;
+    font-family: 'Italiana', serif;
+    font-family: 'Titillium Web', sans-serif;
+}
 
 .second{
     width: 30%;
@@ -203,9 +210,13 @@ Second section
 
 }
 .textHolder h1{
-    text-decoration: underline;
     font-size: 2rem;
+    font-family: 'Cormorant', serif;
+    font-family: 'Titillium Web', sans-serif;
 
+}
+.textHolder p{
+    font-family: 'Cormorant', serif;
 }
 .imageHolder img{
     width: 100%;
@@ -330,22 +341,4 @@ the tap t0 view button for responsive
     margin: 7px 0px;
     background-color: white;
 }
-
-
-
-
-
-
-/* .............................................
-For Responsiveness for Tablet
-............................................. */
-
-
-
-
-
-/* .............................................
-For Responsiveness for Phones
-............................................. */
-
 
